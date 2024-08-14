@@ -54,3 +54,64 @@ body {
     color: rgb(242, 245, 245);
     background: rgb(125, 124, 124);
 }
+
+.weatherEmoji {
+    font-size: 200px;
+}
+
+.weatherBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.weatherBox {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.weatherBox .temprature {
+    font-size: 40px;
+    font-weight: 800;
+    position: relative;
+}
+
+.weatherBox .temprature sup {
+    font-size: 20px;
+    position: absolute;
+    font-weight: 600;
+} 
+
+.weatherBox .description {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.weatherDetails {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+.humidity, .wind {
+    display: flex;
+    align-items: center;
+}
+ 
+.weatherDetails i {
+    font-size: 30px;
+}
+
+.weatherDetails .text {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.text span {
+    font-size: 20px;
+    font-weight: 700;
+}
