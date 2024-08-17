@@ -6,6 +6,8 @@
     outline: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+
 body {
     min-height: 100vh;
     display: flex;
@@ -55,12 +57,35 @@ body {
     background: rgb(125, 124, 124);
 }
 
+.locationNotFound {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.fetching {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(69, 69, 69);
+}
+
+.locationNotFound h1 {
+    font-size: 20px;
+    color: rgb(69, 69, 69);
+    margin-bottom: 15px;
+}
+
 .weatherEmoji {
     font-size: 200px;
 }
 
 .weatherBody {
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     flex-direction: column;
